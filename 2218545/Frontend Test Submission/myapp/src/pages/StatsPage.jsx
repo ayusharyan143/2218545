@@ -32,7 +32,7 @@ const StatsPage = () => {
 
       <Box sx={{ display: "flex", gap: 2, mb: 3 }}>
         <TextField
-          label="Enter Shortcode"
+          label="Enter Short Name"
           variant="outlined"
           value={code}
           onChange={(e) => setCode(e.target.value)}

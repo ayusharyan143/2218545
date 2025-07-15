@@ -58,7 +58,7 @@ const ShortenerPage = () => {
   return (
     <Box sx={{ p: 2 }}>
       <Typography variant="h5" gutterBottom>
-        🔗 Shorten Your URLs
+        Shorten Your URL
       </Typography>
       {inputs.map((input, index) => (
         <Grid container spacing={2} key={index} sx={{ mb: 1 }}>
@@ -72,7 +72,7 @@ const ShortenerPage = () => {
           </Grid>
           <Grid item xs={12} sm={3}>
             <TextField
-              label="Validity (mins)"
+              label="Minutes"
               fullWidth
               type="number"
               value={input.validity}
@@ -81,7 +81,7 @@ const ShortenerPage = () => {
           </Grid>
           <Grid item xs={12} sm={4}>
             <TextField
-              label="Custom Shortcode (optional)"
+              label="Custom Short Name"
               fullWidth
               value={input.shortcode}
               onChange={(e) => handleChange(index, "shortcode", e.target.value)}
