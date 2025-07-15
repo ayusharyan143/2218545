@@ -1,0 +1,43 @@
+{
+  "ayush1": {
+    "url": "https://www.google.com",
+    "createdAt": "2025-07-15T05:22:03.437Z",
+    "expiresAt": "2025-07-15T05:52:03.437Z",
+    "clickStats": [
+      {
+        "timestamp": "2025-07-15T05:22:57.125Z",
+        "referrer": "direct",
+        "location": "::1"
+      },
+      {
+        "timestamp": "2025-07-15T05:23:38.086Z",
+        "referrer": "direct",
+        "location": "::1"
+      }
+    ]
+  },
+  "ayush2": {
+    "url": "https://www.google.com",
+    "createdAt": "2025-07-15T05:39:51.480Z",
+    "expiresAt": "2025-07-15T05:40:51.480Z",
+    "clickStats": [
+      {
+        "timestamp": "2025-07-15T05:40:11.275Z",
+        "referrer": "http://localhost:3000/",
+        "location": "::1"
+      }
+    ]
+  },
+  "ayush3": {
+    "url": "https://github.com/ayusharyan143?tab=repositories",
+    "createdAt": "2025-07-15T07:08:38.815Z",
+    "expiresAt": "2025-07-15T07:09:38.815Z",
+    "clickStats": [
+      {
+        "timestamp": "2025-07-15T07:08:40.150Z",
+        "referrer": "http://localhost:3000/",
+        "location": "::1"
+      }
+    ]
+  }
+}
